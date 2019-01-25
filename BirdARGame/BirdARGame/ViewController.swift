@@ -38,6 +38,8 @@ extension ViewController: ARSKViewDelegate {
 
     func view(_ view: ARSKView, didAdd node: SKNode, for anchor: ARAnchor) {
         let birdNode = SKSpriteNode(imageNamed: "bird")
+        birdNode.xScale = 0.25
+        birdNode.yScale = 0.25
         node.addChild(birdNode)
     }
 
