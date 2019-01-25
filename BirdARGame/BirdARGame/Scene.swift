@@ -18,7 +18,7 @@ class Scene: SKScene {
         
         if let touchLocation = touches.first?.location(in: sceneView) {
             if let hit = sceneView.hitTest(touchLocation, types: .featurePoint).first {
-                sceneView.session.add(anchor: ARAnchor(transform: hit.localTransform))
+                sceneView.session.add(anchor: ARAnchor(transform: hit.worldTransform))
             }
         }
     }
