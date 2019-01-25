@@ -14,6 +14,7 @@
 		A372F0B021FB5F0A004CEDE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A372F0AE21FB5F0A004CEDE9 /* LaunchScreen.storyboard */; };
 		A372F0BB21FB5F0A004CEDE9 /* BirdARGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A372F0BA21FB5F0A004CEDE9 /* BirdARGameTests.swift */; };
 		A372F0C621FB5F0A004CEDE9 /* BirdARGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A372F0C521FB5F0A004CEDE9 /* BirdARGameUITests.swift */; };
+		A372F0D621FB6102004CEDE9 /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A372F0D521FB6102004CEDE9 /* Scene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A372F0C121FB5F0A004CEDE9 /* BirdARGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirdARGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A372F0C521FB5F0A004CEDE9 /* BirdARGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdARGameUITests.swift; sourceTree = "<group>"; };
 		A372F0C721FB5F0A004CEDE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A372F0D521FB6102004CEDE9 /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				A372F0AC21FB5F0A004CEDE9 /* Assets.xcassets */,
 				A372F0AE21FB5F0A004CEDE9 /* LaunchScreen.storyboard */,
 				A372F0B121FB5F0A004CEDE9 /* Info.plist */,
+				A372F0D521FB6102004CEDE9 /* Scene.sks */,
 			);
 			path = BirdARGame;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 			files = (
 				A372F0B021FB5F0A004CEDE9 /* LaunchScreen.storyboard in Resources */,
 				A372F0AD21FB5F0A004CEDE9 /* Assets.xcassets in Resources */,
+				A372F0D621FB6102004CEDE9 /* Scene.sks in Resources */,
 				A372F0AB21FB5F08004CEDE9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
